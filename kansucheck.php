@@ -13,7 +13,7 @@
         $x = hello($_POST['nickname']);
     }
     function hello($nickname){
-        return $nickname;
+        return 'Hello! '.$nickname;
     }
 ?>
 
